@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    /* padding es la cantidad de espacio entre el borde y el contenido del elemento */
+    padding: 0;
+    /* el estilo de letra */
+    font-family: helvetica;
+    /* el linear-gradient es para el degradado/difuminado entre dos colores */
+    background: linear-gradient(120deg, #0eecd2b7, #466aec9a);
+    /* height especifica la altura de algun elemento */
+    height: 100vh;
+}
+
+.textos1 h1{
+    text-align: left;
+
+}
+
+.textos2{
+    text-align: center;
+}
+
+.Sobre-nosotros{
+    justify-content: space-evenly;
+    display: flex;
+}

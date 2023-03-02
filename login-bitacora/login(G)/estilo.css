@@ -1,0 +1,90 @@
+/* el diseño de la pgina base */
+body{
+    margin: 0;
+    background: linear-gradient(120deg, #17d1b8, #2d4595);
+    font-family: helvetica;
+}
+
+.bases{
+    /* border: 3px solid rgb(205, 75, 75); */
+    max-width: 90%; 
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* diseño del "cuadro" donde se enuentra la infromacion requerida */
+.form{
+    /* border: 3px solid rgb(181, 176, 176); */
+    border-top: 2px solid rgb(53, 81, 165);
+    max-width: 400px;
+    /* altura */
+    padding: 40px 50px;
+    /* margen */
+    margin: auto;
+    margin-top: 10px;
+    /* bordes redondos */
+    border-radius: 10px;
+    /* color de fondo */
+    background: rgb(255, 255, 255)
+}
+
+/* forma del lugar donde se encuentra el titulo */
+.form-titulo{
+    /* ESTE ES EL GROSOR DE LAS LETRAS */
+    font-weight: bold;
+    /* EL TAMAÑO */
+    font-size: 30px;
+    /* SU ALINEACION */
+    text-align: center;
+    margin:0;
+    /* MARGEN DEL BOTON */
+    margin-bottom: 20px;
+    /* ESPACIADO ENTRE LETRAS */
+    letter-spacing: 3px;
+
+}
+
+
+.form-input{
+    margin-bottom: 15px;
+}
+
+/* las respuestas a cada pregunta */
+.form-input label{
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+/* color en las respestas de los elementos */
+.form-input input{
+    width: 100%;
+    border:none;
+    outline:none;
+    background: none;
+    border-bottom: 2px solid rgb(83, 111, 161);
+    
+}
+
+.form-input input:hover{
+    background: rgb(224, 216, 216);
+}
+
+/* boton de enviar, iseño */
+.form-boton input{
+    background: rgb(142, 170, 197);
+    color: black;
+    border-radius: 15px;
+    padding:  12px 22px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+}
+
+/* el color al que transcisiona y el tiempo */
+.form-boton input:hover{
+    background: rgb(93, 140, 221);
+    transition: 0.5s;
+}
